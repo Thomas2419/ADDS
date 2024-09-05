@@ -1,4 +1,4 @@
-## ADDS: Open-Vocabulary Multi-Label Classification with CLIP and Pyramid-Forwarding
+# Open Source Implementation of ADDS: Open-Vocabulary Multi-Label Classification with CLIP and Pyramid-Forwarding
 
 ## Overview
 
