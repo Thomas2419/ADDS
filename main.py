@@ -32,6 +32,7 @@ def main():
     
     possible_labels = extract_labels(comprehensive_data)
     num_labels = len(possible_labels)
+    preprocess_json_files(data_dir, possible_labels)
 
     # Initialize the OpenCLIP model once
     clip_model, _, preprocess = open_clip.create_model_and_transforms(model_name, pretrained=pretrained)
